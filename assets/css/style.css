@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color:pink;
+}
+
+#shape {
+  width: 50vw;
+  height: 50vw;
+  cursor: pointer;
+}
+
+.kernel {
+  clip-path: polygon(53% 92%, 45% 91%, 37% 78%, 34% 66%, 38% 55%, 53% 51%, 64% 57%, 67% 70%, 61% 81%);
+  background: rgb(254, 169, 10);  
+}
+
+.popcorn {
+   background: #FFF2D6;  
+    clip-path: polygon(25% 68%, 28% 61%, 34% 55%, 26% 49%, 21% 41%, 26% 33%, 35% 31%, 44% 32%, 52% 43%, 61% 37%, 72% 44%, 76% 54%, 71% 62%, 63% 67%, 72% 76%, 64% 86%, 47% 90%, 39% 86%, 40% 76%, 34% 69%);
+}
+
+.popcorn::after {
+  content: "";
+  position: absolute;
+  top: 48%;
+  left: 52%;
+  width: 250px;
+  height: 250px;
+  background-color:#fbc757;
+  clip-path: polygon(38% 79%, 30% 80%, 25% 73%, 32% 66%, 27% 59%, 31% 53%, 41% 57%, 50% 54%, 53% 59%, 58% 67%, 56% 74%, 49% 76%, 43% 73%);
+  transform: translate(-50%, -50%);
+}
