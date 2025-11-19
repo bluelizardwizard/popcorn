@@ -28,8 +28,8 @@ body {
   position: absolute;
   top: 48%;
   left: 52%;
-  width: 250px;
-  height: 250px;
+  width: 40vw;
+  height: 40vw;
   background-color:#fbc757;
   clip-path: polygon(38% 79%, 30% 80%, 25% 73%, 32% 66%, 27% 59%, 31% 53%, 41% 57%, 50% 54%, 53% 59%, 58% 67%, 56% 74%, 49% 76%, 43% 73%);
   transform: translate(-50%, -50%);
