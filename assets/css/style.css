@@ -1,6 +1,32 @@
 html, body {
   background-color:pink;
+  cursor: url("../media/Pointer.ico");
+
+  /*cursor: url("../media/cursor.svg") 4 4, default;/*
+}
+
+  /*cursor: url("/assets/media/pointer.png"), default;/*
   /*cursor: url("pathHERE"), default;*/
+
+
+
+.pop_up {
+  display: none; 
+  width: 60vw; 
+  height: 60vw; 
+  position: relative; 
+  left: 20vw; 
+  top: 20vh; 
+  z-index: 99;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  
 }
 
 .popcorn_container {
@@ -27,7 +53,7 @@ html, body {
 }
 
 .popcorn_container:hover {
-  cursor: url("../media/favicon.ico"), default;
+  /*cursor: url("../media/Pointer.png"), default;*/
     .kernel {
       transform:scale(1.2);
     }
@@ -112,7 +138,7 @@ clip-path: polygon(34% 99%, 3% 96%, 0 71%, 14% 53%, 2% 30%, 22% 15%, 43% 25%, 51
 .popcorn_5{
   position:absolute;
   top:30%;
-  left:40%;
+  left:45%;
 
   .popcorn {
   clip-path: polygon(39% 92%, 25% 100%, 13% 96%, 6% 84%, 6% 70%, 21% 61%, 11% 56%, 3% 43%, 0 22%, 11% 5%, 32% 1%, 50% 9%, 60% 18%, 78% 6%, 96% 10%, 99% 24%, 87% 33%, 82% 56%, 95% 71%, 87% 97%, 66% 100%, 52% 91%, 46% 77%);    

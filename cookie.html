@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>HELLO Cookie!</h1>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Titel der Seite -->
+        <title>Seitentitel</title>
+        
+        <!-- verweis auf die reset.css - entfernt alle default styles des browsers -->
+        <!-- kann auch gelöscht werden -->
+        <link rel="stylesheet" href="./assets/css/reset.css">
+
+        <!-- verweis auf unser css -->
+        <link rel="stylesheet" href="./assets/css/cookie_style.css">
+    </head>
+    
+    <body>
+<div class="container">
+  <div class="cookie">
+    <div class="half left"></div>
+    <div class="half right"></div>
+  </div>
+  <div class="paper">
+    <span>The best is yet to come</span>
+  </div>
+  <audio id="click-sound" src="assets/media/Cookie_break.mp3"></audio>
+  <audio id="sound2" src="assets/media/light.mp3"></audio>
+</div>
+
+
+
+
+
+        <!-- verweis auf unser javascript -->
+        <script src="assets/js/cookie_script.js"></script>
+    </body>
 </html>

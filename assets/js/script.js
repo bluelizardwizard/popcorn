@@ -19,6 +19,7 @@ let i = 0;
 document.querySelectorAll(".zu").forEach((el) => {
     if (i == special_index) {
         // Add class to mark as special
+        console.log(i + " is special");
         el.classList.add("special");
     }
     i = i+1;
