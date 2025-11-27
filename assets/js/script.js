@@ -14,7 +14,7 @@ document.querySelectorAll(".popcorn_container").forEach((el) => {
 
 const pop_up_div = document.getElementById("pop_up");
 
-let special_index = Math.floor(Math.random() * 10);
+let special_index = Math.floor(Math.random() * 17); // Chane to number of popcorns here
 let i = 0;
 document.querySelectorAll(".zu").forEach((el) => {
     if (i == special_index) {
@@ -38,6 +38,8 @@ document.querySelectorAll(".zu").forEach((el) => {
             }
             if (el.classList.contains("special")) {
                 pop_up_div.style.display = "flex";
+                const special_sound = new Audio("assets/media/banner_sound.mp3");
+                special_sound.play();
             }
             audio.play();
         }
