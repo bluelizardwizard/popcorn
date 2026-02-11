@@ -31,7 +31,7 @@ document.querySelectorAll(".zu").forEach((el) => {
                     audio = new Audio("assets/media/popcorn_deep.mp3");
                     break;
                 case 2:
-                    audio = new Audio("assets/media/popcorn_deepest.mp3");
+                    audio = new Audio("assets/media/Popcorn_deepest.mp3");
                     break;
                 default:
                     
