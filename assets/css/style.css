@@ -1,7 +1,6 @@
-html, body {
+body {
   background-color:pink;
-  /*cursor: url("../media/Curser.ico width='50'"), default;*/
-
+  cursor: none;
 }
 
   /*cursor: url("../media/cursor.svg") 4 4, default;/*
@@ -55,7 +54,6 @@ html, body {
 }
 
 .popcorn_container:hover {
-  /*cursor: url("../media/Pointer.png"), default;*/
     .kernel {
       transform:scale(1.2);
     }

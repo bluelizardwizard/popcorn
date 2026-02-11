@@ -7,6 +7,7 @@ body {
   /*background: radial-gradient(farthest-corner circle, #ffcdff 12%, #bdbdff 79% 26%);*/
   overflow: hidden;
   /*background-image: url("../media/background\ .png");*/
+  cursor: none;
 }
 
 .a {
